@@ -1,0 +1,48 @@
+.review-avatar-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.review-single img {
+    display: block;
+    max-width: 100px;
+    max-height: 100px;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+    .review-single img {
+        display: none;
+    }
+}
+
+.review-single {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 30px; 
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.review-content {
+    width: 75%;
+}
+.review-single h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    color: rgb(100,100,100);
+}
+
+.review-single p {
+    font-size: .88rem;
+    line-height: 1.2rem;
+}
+
+.review-stars {
+    color: gold;
+    margin-top: 10px;
+    font-size: 1rem;
+    margin-right: 5px;
+}
