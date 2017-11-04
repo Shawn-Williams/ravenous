@@ -5,7 +5,6 @@ let accessToken;
 export let Yelp = {
   getAccessToken() {
     if (accessToken) {
-      console.log(accessToken);
       return new Promise(resolve => resolve(accessToken));
     }
 
